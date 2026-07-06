@@ -2,7 +2,7 @@
   "name": "inbox-zero",
   "private": true,
   "scripts": {
-    "build": "turbo build --filter=./apps/web",
+    "build": "turbo build:ci --filter=./apps/web",
     "dev": "turbo dev --filter=./apps/web",
     "worker": "pnpm --filter @inboxzero/worker start",
     "test": "turbo run test --filter=./apps/web -- --run",
