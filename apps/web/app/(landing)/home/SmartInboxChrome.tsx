@@ -1,4 +1,4 @@
-import { GithubIcon } from "lucide-react";
+import { Github } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
@@ -19,7 +19,7 @@ export function SmartInboxNav() {
           </Button>
           <Button asChild variant="outline" size="sm">
             <Link href={GITHUB_REPO_URL} target="_blank" rel="noreferrer">
-              <GithubIcon className="mr-2 size-4" />
+              <Github className="mr-2 size-4" />
               GitHub
             </Link>
           </Button>

@@ -1,4 +1,4 @@
-import { GithubIcon, SparklesIcon } from "lucide-react";
+import { Github, SparklesIcon } from "lucide-react";
 import Link from "next/link";
 import { GITHUB_REPO_URL } from "@/app/(landing)/home/SmartInboxChrome";
 import { Button } from "@/components/ui/button";
@@ -23,7 +23,7 @@ export function SmartInboxHero() {
         </Button>
         <Button asChild size="lg" variant="outline">
           <Link href={GITHUB_REPO_URL} target="_blank" rel="noreferrer">
-            <GithubIcon className="mr-2 size-4" />
+            <Github className="mr-2 size-4" />
             View on GitHub
           </Link>
         </Button>
